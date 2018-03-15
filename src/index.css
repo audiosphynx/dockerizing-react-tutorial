@@ -1,0 +1,54 @@
+body {
+  background-color: navajowhite;
+  font: 34px"Opensans", Futura, sans-serif;
+  color: white;
+  margin: 5%;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: aquamarine;
+  border: 1px solid #999;
+  border-color: white;
+  float: left;
+  color: white;
+  font-size: 150px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 15vh;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 10vw;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
